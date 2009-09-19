@@ -26,6 +26,6 @@ public class FizzBizzTest
     @Test
     public void shouldFizzOnSixthShout() {
         FizzBizz fizzBizz = new FizzBizz(5);
-        assertEquals("Fizz", fizzBizz.shout());
+        assertEquals("Buzz", fizzBizz.shout());
     }
 }
